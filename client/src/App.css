@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* Design the main heading component */
+/*Container for the main heading*/
+.headingContainer{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mainHeading{
+  font-family: "Shadows Into Light", cursive;
+}
+
+/*Design for adding tasks*/
+.textEntry{
+  width: 85.5%; 
+  margin: 0.1%;
+  font-size: medium;
+  padding-left: 1%;
+  border-radius: 10px;
+
+}
+
+.addTask{
+  margin-left: 3%;
+  width: 10%;
+  margin-top: 0.1%;
+  margin-bottom: 0.3%;
+  border-radius: 10px;
+  background-color: rgb(48, 122, 250);
+  font-size: larger;
+  font-family: "Inter", sans-serif;;
+  color: aliceblue;
+}
+  
+/*Design for tasklist*/
+.checkMark{
+  width: 5%;
+  height: 50%;
+}
+
+.tasks{
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 80%;
+  font-size: large;
+  margin: 0;
+}
+
+.deleteTask{
+  margin-left: 3%;
+  width: 10%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
+}
+
+/*Removing bullets from list*/
+.list{
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%
+}

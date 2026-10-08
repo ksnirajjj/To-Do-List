@@ -1,0 +1,26 @@
+/*Design for adding task component*/
+.taskBox{
+  display: flex;
+  height: 6vh;  
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+}
+
+/*Design for displaying tasks*/
+.taskList{
+  display: flex;
+  height: 6vh;  
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 1%;
+  align-items: center;
+  
+  
+}
+
+.taskList:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
